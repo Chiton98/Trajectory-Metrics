@@ -19,4 +19,9 @@ The project has 3 folders
 3. GraphTrajectories: has the code to visualize the user trajectory using Python.
 
 
+## Run the program
+
+Assumming we are on the root folder.
+
+
 
