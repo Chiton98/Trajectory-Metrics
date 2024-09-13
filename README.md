@@ -35,7 +35,7 @@ with session "1" and game "2" we should call
 
 And a picture like the following should appear as output:
 
-![Picture of C# output after executing the program](C#Output.JPG) 
+![Picture of C# output after executing the program](CsharpOutput.jpg) 
 
 
 ### Plot of the trajectories using Python code
