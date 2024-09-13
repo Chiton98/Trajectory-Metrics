@@ -1,0 +1,6 @@
+Difference collision k,Time until k collision,Position Ball k,Color Ball k,Position Ball k+1,Color Ball k+1
+1,0.539999,( 2-0 ),Green,( 1-0 ),Green
+2,0.4400005,( 1-0 ),Green,( 0-0 ),Green
+3,1.58,( 0-0 ),Green,( 2-2 ),Green
+4,0.5200005,( 2-2 ),Green,( 1-2 ),Green
+5,0.5999985,( 1-2 ),Green,( 0-2 ),Green
