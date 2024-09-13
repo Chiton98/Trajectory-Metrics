@@ -21,7 +21,30 @@ The project has 3 folders
 
 ## Run the program
 
-Assumming we are on the root folder.
+For both programs it is assumed that the data is stored one level up 
+from where main file is.
+
+### Computation of NJS using C# code
+Assuming we have the .exe file of the * main.cs * file and it is called * ComputeNSJ.exe *, we just need to call the program with 3 arguments which correspond to name of the patient, number of session, number of game.
+
+For example, if we want to compute the information for patient "Prueba", 
+with session "1" and game "2" we should call
+
+´./ComputeNJS.exe Prueba 1 2´
 
 
+And a picture like the following should appear as output:
 
+![Picture of C# output after executing the program](C#Output.JPG) 
+
+
+### Plot of the trajectories using Python code
+The same arguments apply for python code. So If we want to visualize the
+same information as the previous code we should call
+
+´python main.py Prueba 1 2´
+
+
+And a picture like the following should appear as output:
+
+![Picture of python output for plotting the user trajectory](PythonOutput.png)

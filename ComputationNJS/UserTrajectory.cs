@@ -34,7 +34,6 @@ namespace TrajectoryMetrics
 		public double m_NJS;
 		public double m_totalTime;
 
-		//Values of t for the trajectory
 		private double[] m_t;
 		private Vector3[] m_position;
 		private Vector3[] m_velocity;
@@ -55,6 +54,12 @@ namespace TrajectoryMetrics
 			m_deltaT = deltaT;
 		}
 
+		public void ShowInformation()
+		{
+			 Console.WriteLine("\t T: " + (m_totalTime).ToString("F4") +
+                          "\t S: " + (m_arcLength).ToString("F4") +
+                          "\t NJS: " + ((m_NJS) / 100000).ToString("F4") + "\n"); //Scale by 100000 to see an easier comparison
+		}
 
 		#region SMOOTH BASED METRICS
 
@@ -256,7 +261,7 @@ namespace TrajectoryMetrics
 		#endregion
 
 
-		// TO DO: IMPLEMENT PATH BASED METRICS ON .CSV FILE
+		// TO DO: IMPLEMENT PATH BASED METRICS ON .CSV FILEd
 		#region PATH BASED METRICS 
 		/// <summary>
 		/// THOSE ARE THE ONES THAT LOG DISCRETE EVENTS
