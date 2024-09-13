@@ -30,9 +30,8 @@ Assuming we have the .exe file of the * main.cs * file and it is called * Comput
 For example, if we want to compute the information for patient "Prueba", 
 with session "1" and game "2" we should call
 
-´./ComputeNJS.exe Prueba 1 2´
-
-
+`./ComputeNJS.exe Prueba 1 2`
+ 
 And a picture like the following should appear as output:
 
 ![Picture of C# output after executing the program](CsharpOutput.jpg) 
@@ -42,8 +41,7 @@ And a picture like the following should appear as output:
 The same arguments apply for python code. So If we want to visualize the
 same information as the previous code we should call
 
-´python main.py Prueba 1 2´
-
+`python main.py Prueba 1 2`
 
 And a picture like the following should appear as output:
 
