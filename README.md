@@ -2,11 +2,11 @@
 
 
 This repository contains the code necessary to quantify and visualize
-trajectory followed by the user on the serious game *Add link to a youtube video later*
+trajectory followed by the user on the [serious game](https://drive.google.com/file/d/1c-I7-OELG69QCqLVbHOykb_UQ6EHtxNm/)
 
-To quantify the "quality" of user trajectory I used a metric based on
-the smoothness, which uses the jerk called Normalized Jerk Smoothness(NJS) 
-*Add link referencing the papers where that computation is showed*
+To quantify the quality of user trajectory I used a metric based on
+the smoothness, which uses the jerk called Normalized Jerk Smoothness(NJS).
+The reference for the metrics can be found [here](https://link.springer.com/article/10.1186/s12984-023-01142-7)
 
 To visualize the trajectory of the user a Python script was used.
 
@@ -20,9 +20,8 @@ The project has 3 folders
 
 
 ## Run the program
-
-For both programs it is assumed that the data is stored one level up 
-from where main file is.
+For both programs the data is assumed to be stored one level up in the directory
+tree from where program file is.
 
 ### Computation of NJS using C# code
 Assuming we have the .exe file of the *main.cs* file and it is called *ComputeNSJ.exe*, we just need to call the program with three arguments which correspond to name of the patient, number of session and number of game.
